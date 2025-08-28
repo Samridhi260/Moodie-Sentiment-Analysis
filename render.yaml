@@ -3,7 +3,5 @@ services:
     name: moodie
     env: python
     plan: free
-    repo: https://github.com/<your-username>/<repo-name>
-    branch: master
     buildCommand: pip install -r requirements.txt
     startCommand: python app.py
